@@ -1,0 +1,36 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main .hero {
+  background-color: green;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .hero h1 {
+  font-size: 3em;
+}
+.main .about-me {
+  background-color: yellow;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .about-me h1 {
+  font-size: 2em;
+}
+.main .fun-stuff {
+  background-color: darkgreen;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .fun-stuff h1 {
+  font-size: 2em;
+}/*# sourceMappingURL=Main.css.map */
