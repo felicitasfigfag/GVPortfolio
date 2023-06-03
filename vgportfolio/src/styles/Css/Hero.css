@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "GeneralSansVariable";
+  src: url("../../setup/assets/Fonts/GeneralSans-Variable.ttf") format("truetype");
+  /* Agrega otros atributos según sea necesario, como font-weight y font-style */
+}
+@font-face {
+  font-family: "GambettaVariable";
+  src: url("../../setup/assets/Fonts/Gambetta-Variable.ttf") format("truetype");
+  /* Agrega otros atributos según sea necesario, como font-weight y font-style */
+}
+.background-title {
+  /* Layout Properties */
+  top: 0px;
+  left: 75px;
+  width: 1845px;
+  height: 4556px;
+  /* UI Properties */
+  font-family: "GeneralSansVariable";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 556px;
+  line-height: 420px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #F8F8F8;
+  opacity: 0.95;
+}
+
+.project-description {
+  font-family: "GambettaVariable";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #171717;
+}
+
+.título {
+  font-family: "GeneralSansVariable";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 155px;
+  line-height: 142px;
+  letter-spacing: 0px;
+  color: #171717;
+}
+
+.subtítulo {
+  font-family: "GeneralSansVariable";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 55px;
+  letter-spacing: 0px;
+  color: #171717;
+}
+
+.hero {
+  /* Layout Properties */
+  top: 0px;
+  left: 75px;
+  width: 1845px;
+  height: 4556px;
+  background-color: #EFEFEF;
+}
+
+.mainTitle {
+  /* UI Properties */
+  padding-top: 100px;
+  margin-top: 0;
+  font-family: "GeneralSansVariable";
+  font-weight: normal;
+  font-size: 556px;
+  line-height: 420px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #F8F8F8;
+}/*# sourceMappingURL=Hero.css.map */

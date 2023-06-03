@@ -1,0 +1,131 @@
+@import '../Variables.scss';
+
+.about {
+    margin-left: $left-margin;
+    letter-spacing: $letter-spacing-0;
+    color: $local-black;
+
+    &-intro {
+        // Estilo general para todos los "intro" dentro de "about"
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        h1 {
+            margin-bottom: 10px;
+            family: $general-sans;
+            font-style: $font-style-normal;
+            weight: $font-weight-normal;
+            font-size: 210px;
+            color: $local-white; 
+            line-height: 159px;  // Asegúrate de definir una variable para este valor si es necesario
+            letter-spacing: $letter-spacing-0;
+            text-align: left;
+            color: $local-white;
+            opacity: 1;
+        }
+
+        i {
+            margin-bottom: 57px;
+        }
+        
+        hr {
+            // Estilo para el separador
+        }
+    }
+    &-section{
+        margin-bottom: $about-bottom;
+
+        &-title {
+        font-family: $general-sans;
+        font-size: $font-size-23;
+        font-style: normal;
+        margin-bottom: $about-section-title-margin;
+        }
+    }
+    &-main{
+        display: flex;
+        align-items: flex-start;
+        justify-content:left;
+        &-summary {
+            // Estilo general para "summary"
+            justify-self: right;
+            background-color: pink;
+    
+            p {
+                // Estilo para el párrafo
+            }
+    
+            .about-image-shape {
+                // Estilo para la imagen
+            }
+        }
+        &-left{
+            width: 50%;
+            text-align: left;
+            justify-items: right;
+            justify-self: left;
+            align-self: flex-start;
+            font-family: $gambetta;
+            font-size: $font-size-23;
+    
+            &-intro{
+                display: block;
+                align-items: baseline;
+                font-family: $gambetta;
+                font-size: $font-size-23;
+                font-style: italic;
+                h3{
+                    font-family: $general-sans;
+                    font-size: $font-size-35;
+                    font-style: normal;
+                }
+                
+            }
+            
+        
+            &-experience {
+                // Estilo general para "experience"
+        
+                &-line {
+                 
+                    font-style: italic;
+                    // Estilo para cada línea de experiencia
+                }
+            }
+        
+            &-background {
+                // Estilo general para "background"
+        
+                ul {
+                    // Estilo para la lista
+                    list-style-type: none;
+                    padding-left: 0;
+                    font-size: $font-size-23;
+        
+                    li {
+                       font-family: $gambetta;
+                       padding-bottom: 21px;
+                       padding-top: 21px;
+                    }
+        
+                    i {
+                        // Estilo para cada etiqueta i dentro de la lista
+                    }
+                }
+            }
+        
+            &-languages {
+                display: flex;
+                flex-direction: column;
+                b{
+                    font-family: $gambetta;
+                    padding-bottom: $about-section-title-margin;
+                }
+                // Estilo general para "languages"
+            }
+        }
+    }
+   
+
+}

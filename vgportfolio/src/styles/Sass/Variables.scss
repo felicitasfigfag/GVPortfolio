@@ -1,0 +1,110 @@
+// COLORS
+$local-white: #F8F8F8;
+$local-black: #171717;
+$background-grey: #EFEFEF;
+
+//MARGINS
+$left-margin: 182px;
+$about-bottom: 78px;
+$about-section-title-margin: 21px;
+
+// FONT
+$general-sans: "GeneralSansVariable";
+$gambetta: "GambettaVariable";
+
+// FONT STYLE
+$font-style-normal: normal;
+$font-style-italic: italic;
+
+//FONT WEIGHT
+$font-weight-600: 600;
+$font-weight-normal: normal;
+
+//FONT SIZE
+$font-size-18: 18px;
+$font-size-23: 23px;
+$font-size-35: 35px;
+$font-size-155: 155px;
+$font-size-556: 556px;
+$adaptable-font-size: 10vw;
+
+//LETTER SPACING
+$letter-spacing-0: 0px;
+
+//LINE SPACING
+$line-spacing-21: 21px;
+$line-spacing-24: 24px;
+$line-spacing-55: 55px;
+$line-spacing-142: 142px;
+$line-spacing-420: 420px;
+
+//Variables.scss
+@font-face {
+  font-family: 'GeneralSansVariable';
+  src: url('../../setup/assets/Fonts/GeneralSans-Variable.ttf') format('truetype');
+  /* Agrega otros atributos según sea necesario, como font-weight y font-style */
+}
+
+@font-face {
+  font-family: 'GambettaVariable';
+  src: url('../../setup/assets/Fonts/Gambetta-Variable.ttf') format('truetype');
+  /* Agrega otros atributos según sea necesario, como font-weight y font-style */
+}
+
+
+
+
+// Character Styles
+
+
+.background-title {
+  /* Layout Properties */
+  top: 0px;
+  left: 75px;
+  width: 1845px;
+  height: 4556px;
+  
+  /* UI Properties */
+  font: {
+    family: $general-sans;
+    style: $font-style-normal;
+    weight: $font-weight-normal;
+    size: $font-size-556;
+  }
+  line-height: $line-spacing-420;
+  letter-spacing: $letter-spacing-0;
+  text-align: left;
+  color: $local-white;
+  opacity: 0.95;
+}
+
+.project-description {
+  font-family: $gambetta;
+  font-style: $font-style-italic;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-23;
+  line-height: $line-spacing-21;
+  letter-spacing: $letter-spacing-0;
+  color: $local-black;
+}
+
+.título {
+  font-family: $general-sans;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-600;
+  font-size: $font-size-155;
+  line-height: $line-spacing-142;
+  letter-spacing: $letter-spacing-0;
+  color: $local-black;
+}
+
+.subtítulo {
+  font-family: $general-sans;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-600;
+  font-size: $font-size-35;
+  line-height: $line-spacing-55;
+  letter-spacing: $letter-spacing-0;
+  color: $local-black;
+}
+

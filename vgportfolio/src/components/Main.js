@@ -1,18 +1,17 @@
 import React from 'react';
-import '../styles/Main.scss';
+import Hero from './Main/Hero';
+import AboutMe from './Main/AboutMe';
+import FunStuff from './Main/FunStuff';
+import '../styles/Sass/Main.scss';
 
 function Main() {
   return (
     <main className="main">
-      <section className="hero">
-        <h1>Hero</h1>
-      </section>
-      <section className="about-me">
-        <h1>About Me</h1>
-      </section>
-      <section className="fun-stuff">
-        <h1>Fun Stuff</h1>
-      </section>
+      <div classname="main-central">
+        <Hero />
+        <AboutMe />
+      </div>
+      <FunStuff />
     </main>
   );
 }
