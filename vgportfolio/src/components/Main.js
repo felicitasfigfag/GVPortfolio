@@ -7,11 +7,11 @@ import '../styles/Sass/Main.scss';
 function Main() {
   return (
     <main className="main">
-      <div classname="main-central">
+      <div className="main-central">
         <Hero />
         <AboutMe />
+        <FunStuff />
       </div>
-      <FunStuff />
     </main>
   );
 }

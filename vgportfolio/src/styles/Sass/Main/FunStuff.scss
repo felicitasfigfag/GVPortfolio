@@ -1,1 +1,17 @@
 @import '../Fonts.scss';
+@import '../Variables.scss';
+
+.fun{
+    &-intro{
+        margin-left: $left-margin;
+        margin-right: $right-margin;
+        text-align: right;
+        padding: 0;
+        h1{
+            margin-bottom: 21px;
+        }
+    }
+    &-images{
+
+    }
+}
