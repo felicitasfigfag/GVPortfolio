@@ -1,22 +1,18 @@
 @import '../Variables.scss';
+@import '../Fonts.scss';
 .hero {
   /* Layout Properties */
-  top: 0px;
-  left: 75px;
-  width: 1845px;
-  height: 4556px;
+  width: 100%;
   background-color: $background-grey;
+  margin-left: 75px;
+ 
 }
 .mainTitle{
   /* UI Properties */
+  margin-right: $right-margin;
   padding-top: 100px;
+  padding-bottom: 200px;
   margin-top: 0;
-  font-family: $general-sans;
-  font-weight: $font-weight-normal;
-  font-size: $font-size-556;
-  //font-size: $adaptable-font-size;
-  line-height: $line-spacing-420;
-  letter-spacing: $letter-spacing-0;
+  padding-right: $right-margin;
   text-align: left;
-  color: $local-white;
 }

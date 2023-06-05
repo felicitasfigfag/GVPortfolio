@@ -6,9 +6,9 @@ function Navbar() {
     <nav className="navbar">
       <button className="brand-button">GREGORIO VILLAGRÁN</button>
       <div className="nav-links">
-        <a href="#about">ABOUT</a>
-        <a href="#contact">CONTACT</a>
-        <a href="#funstuff">FUN STUFF</a>
+        <a href="#about" className="navText">ABOUT</a>
+        <a href="#contact" className="navText">CONTACT</a>
+        <a href="#funstuff" className="navText">FUN STUFF</a>
       </div>
     </nav>
   );

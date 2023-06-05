@@ -2,35 +2,8 @@
 @import './Variables.scss';
 .main {
     width: 100%;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    &-central {
-      margin-left: 178px;
-      margin-right: 128px;
-    }
-    .about-me {
-      height: 15%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  
-      h1 {
-        font-size: 2em;
-      }
-    }
-  
-    .fun-stuff {
-      background-color: darkgreen;
-      height: 25%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  
-      h1 {
-        font-size: 2em;
-      }
-    }
+}
 
-  }
   

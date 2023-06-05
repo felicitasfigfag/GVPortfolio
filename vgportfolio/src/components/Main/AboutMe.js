@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <section className="about">
       <header className= "about-intro">
-        <h1 className= "about-title"> About:</h1>
+        <h1 className= "about-title sectionTitle"> About:</h1>
         <i>Artist, graphic & digital designer</i>
       </header>
       <hr/>
@@ -19,7 +19,7 @@ function AboutMe() {
           </div>
         
           <div className = "about-main-left-experience about-section">
-            <h4 className = "about-section-title"> EXPERIENCE </h4>
+            <h4 className = "about-section-title sectionTitle"> EXPERIENCE </h4>
             <b className= "about-main-left-experience-line">2021 | OARO - Canada/Spain (Current)</b>
             <p className= "about-main-left-experience-line">2020 | George & Saul - U.S.A.</p>
             <p className= "about-main-left-experience-line">2019 | SANA Digital - Argentina/Spain</p>

@@ -1,0 +1,126 @@
+// Base viewport size from design
+$design-viewport-width: 1920px;
+
+// Function to convert pixel to viewport units
+@use "sass:math";
+
+@function to-vw($size) {
+    @return calc((#{$size} / #{$design-viewport-width}) * 100vw);
+  }
+  
+
+// MAIN TITLE
+.mainTitle {
+    font-family: $general-sans;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: to-vw(556);
+    line-height: to-vw(448);
+    letter-spacing: $letter-spacing-0;
+    text-align: left;
+    color: $local-white;
+    word-break:break-all;
+  
+    @media (max-width: 1920px) {
+      font-size: 556px;
+    }
+  
+    @media (min-width: 2400px) {
+      font-size: 695px; // This is 556 * 2400 / 1920
+    }
+  }
+  
+
+// NAV TEXT
+.navText {
+  font-family: $general-sans;
+  font-style: $font-style-normal;
+  font-weight: medium;
+  font-size: to-vw(18);
+  line-height: to-vw(24);
+  letter-spacing: $letter-spacing-0;
+  text-align: left;
+  color: $local-black;
+}
+
+// SECTION TITLE
+.sectionTitle {
+  font-family: $general-sans;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-normal;
+  font-size: to-vw(210);
+  line-height: to-vw(159);
+  letter-spacing: $letter-spacing-0;
+  text-align: left;
+  color: $local-white;
+}
+
+// SECTION DETAIL
+.sectionDetail {
+  font-family: $gambetta;
+  font-style: $font-style-italic;
+  font-weight: $font-weight-600;
+  font-size: to-vw(23);
+  line-height: to-vw(21);
+  letter-spacing: $letter-spacing-0;
+  color: $local-black;
+}
+
+// ABOUT INTRO TITLE
+.aboutIntroTitle {
+  font-family: $general-sans;
+  font-style: $font-style-normal;
+  font-weight: medium;
+  font-size: to-vw(30);
+  line-height: to-vw(45);
+  letter-spacing: $letter-spacing-0;
+  text-align: left;
+  color: $local-black;
+}
+
+// ABOUT INTRO DESCRIPTION
+.aboutIntroDescription {
+  font-family: $gambetta;
+  font-style: $font-style-italic;
+  font-weight: $font-weight-normal;
+  font-size: to-vw(23);
+  line-height: to-vw(45);
+  letter-spacing: $letter-spacing-0;
+  color: $local-black;
+}
+
+// ABOUT ASIDE
+.aboutAside {
+  font-family: $general-sans;
+  font-style: $font-style-normal;
+  font-weight: medium;
+  font-size: to-vw(30);
+  line-height: to-vw(45);
+  letter-spacing: $letter-spacing-0;
+  text-align: right;
+  color: $local-black;
+}
+
+// ABOUT LIST TITLE
+.aboutListTitle {
+  font-family: $general-sans;
+  font-style: $font-style-normal;
+  font-weight: medium;
+  font-size: to-vw(23);
+  line-height: to-vw(45);
+  letter-spacing: $letter-spacing-0;
+  text-align: left;
+  color: $local-black;
+}
+
+// ABOUT LIST ITEM
+.aboutListItem {
+  font-family: $gambetta;
+  font-style: $font-style-italic;
+  font-weight: $font-weight-normal;
+  font-size: to-vw(23);
+  line-height: to-vw(45);
+  letter-spacing: $letter-spacing-0;
+  text-align: left;
+  color: $local-black;
+}
